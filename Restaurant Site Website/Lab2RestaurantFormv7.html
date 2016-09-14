@@ -1,0 +1,136 @@
+<!Doctype html>
+<html>
+<head>
+  <title>Lab 2 Restaurant Site v7 p.3</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script type="text/javascript" src="Olivers.js"></script>
+  <!-- Boootstrap -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Boootstrap Theme -->
+  <link href="css/bootstrap-theme.min.css" rel="stylesheet">
+  <!-- Latest compiled and minified JQuery -->
+  <script src= "js/jquery.min.js"></script>
+  <!-- Latest compiled and minified JavaScript -->
+  <script src= "js/bootstrap.min.js"></script>
+  <!-- Css -->
+  <link rel="stylesheet" type="text/css" href="restaurantStylesv7.css">
+  <!-- Fonts -->
+  <link href='https://fonts.googleapis.com/css?family=Comfortaa' rel='stylesheet' type='text/css'> 
+
+
+</head>
+
+<div class="page-header">
+  <div class="container">
+    <div class="row>"
+      <div class="col-sm-12"><h1>Oliver's Restaurant</h1></div>
+    </div>
+  </div>
+</div>
+
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="col-sm-12">
+        <ul class="nav nav-pills">
+          <li><a href="Lab2RestaurantHomev7.html"><span class="glyphicon glyphicon-home"></span> Home</a></li>  
+          <li><a href="Lab2RestaurantMenuv7.html">Menu</a></li>     
+          <li><a href="Lab2RestaurantFormv7.html">Contact Us</a></li>
+        </ul>
+      </nav>
+    </div></div></div>
+
+    <div class="jumbotron container">
+      <div class="row">
+        <div class="col-sm-12">
+          <h2><b>Great News!! We're adding a second location coming soon to Akron!</b></h2>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="row">
+        <form id="eatForm" name="eatForm" action="Lab2RestaurantSitev7.html" method="post" onsubmit="return validateForm()" class="form-horizontal">
+          <div class="form-group">
+            <label for="myName" class="col-sm-4 control-label"> *Name: </label>
+            <div class="col-sm-4">
+              <input type="text"  class="form-control" name="myName" id="myName"> 
+              
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="Email"  class="col-sm-4 control-label"> *Email: </label>
+            <div class="col-sm-4">
+              <input type="text" class="form-control" name="Email" id="Email"> 
+              
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="Phone"  class="col-sm-4 control-label"> *Phone: </label>
+            <div class="col-sm-4">
+              <input type="text" class="form-control" name="Phone" id="Phone"> 
+              
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="Reason for Inquiry"  class="col-sm-4 control-label"> Reason for Inquiry: </label>
+            <div class="col-sm-6">
+              <select name="Options" id="option"> Options
+                <option value> Catering </option>
+                <option value> Private Party</option>
+                <option value> Feedback </option>
+                <option value="other"> Other </option> 
+              </select> 
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="Additional Information" class="col-sm-4 control-label"> Additional Information: </label> 
+            <div class="col-sm-6">
+              <textarea name="additional information" id="Additional Information" cols="32" rows="8" ></textarea>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="Have you been to the restaurant?" class="col-sm-4 control-label"> Have you been to the restaurant? </label>
+            <div class="col-sm-4">
+              <input type="radio" name="answer" value="No" id="radio"checked> No 
+              <input type="radio" name="answer" value="Yes" id="radio"> Yes    
+            </div>
+          </div> 
+
+          <div class="form-group">
+            <label for="Best days to contact you" class="col-sm-4 control-label">*Best days to contact you: </label>
+            <div class="col-sm-6">
+              <input type="checkbox" name="days" value="M" id="monday"> M
+              <input type="checkbox" name="days" value="T" id="tuesday">T
+              <input type="checkbox" name="days" value="W" id="wednesday">W
+              <input type="checkbox" name="days" value="Th" id="thursday"> Th
+              <input type="checkbox" name="days" value="F" id="friday"> F
+          </div>
+          </div>
+
+          <div class="form-group">
+            <div class="col-sm-6 col-sm-push-4">
+              <input type="submit" value="Send Request" id="submit">
+            </div>
+          </div>
+        </form>
+        <br><br>
+
+        <div class="page-footer">
+      <div class="container">
+        <div class="row">
+          <div class="col-sm-12">
+            <h3>121 Framus St.,  Silvertone, Ohio, 43221</h3>
+            <h3>310. 555. 4921 </h3></div>
+          </div>
+        </div>
+      </div>
+
+        </body>
+        </html>
+

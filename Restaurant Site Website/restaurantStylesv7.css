@@ -1,0 +1,170 @@
+body {
+	font-family:"Comfortaa";
+	background-color: #ccc190;
+}
+
+#container {
+	width: 100%;
+}
+
+.page-header {
+	text-align: center;
+	border: none;
+}
+
+a: {
+	font-family: monospace;
+	text-decoration: underline;
+	font-weight: none;
+}
+
+a: {
+	font-family: monospace;
+	text-decoration: underline;
+	font-weight: none;
+}
+
+a:link {
+	text-decoration: none;
+}
+
+li a:visited {
+	color: hotpink;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+	font-family: cursive;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+a:active {
+	text-decoration: none; 
+}
+
+.jumbotron {
+	text-align: center;
+	background-image: url("images/mush3.jpg");
+	width: 80%;
+	margin-top: 20px;
+}
+
+.carousel-control.left, .carousel-control.right {
+	background-image:none !important;
+	filter:none !important;
+}
+
+.carousel-inner img {
+	margin: auto;
+}
+
+.carousel-caption {
+	color: aqua;
+}
+
+.image {
+	background-image: url(images/tacos.jpg);
+	background-color: white;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-bottom: 0px;
+}
+
+.img-responsive {
+	margin: 0 auto;
+}
+
+.mission td {
+	padding: 30px;
+	text-align: center;
+	border: 2px solid;
+	background-color: white;	
+}
+
+h4 {
+	text-align: center;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+p {
+	text-align: center;
+	font-size:14px;
+	font-weight: bold;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+
+.drinks .table-responsive {
+	border: 0px;
+	margin-left: 55px;
+}
+
+.drinks label {
+	text-decoration: underline;
+	font-size: 20px;
+	margin-left: 10px;
+}
+
+td {
+	text-align: left;
+	font-weight: bold;
+	padding: 5px;
+}
+
+.container .form-group {
+	margin-left: 20px;
+}
+
+label {
+	margin-top: 10px;
+}
+
+input, textarea, select {
+	margin-top: 10px;
+	border: 2px solid;
+}
+
+#myName, #Email, #Phone{
+	width: 245px;
+	height: 30px;
+	border: 2px solid;
+}
+
+#option {
+	width: 245px;
+	height: 30px;
+}
+
+#submit {
+	width: 120px;
+	height: 30px;
+}
+
+#radio, #monday, #tuesday, #wednesday, #thursday, #friday {
+	margin-top: 20px;
+	margin-bottom: 5px;
+	width: 20px;
+	height: 15px;
+}
+
+#theSubmit {
+	padding: 10px;
+	margin-left: 10px;
+}
+
+.page-footer {
+	text-align: center;
+	border-top: 2pt solid;
+}
+
+
+
+
+
+
+
+
+
